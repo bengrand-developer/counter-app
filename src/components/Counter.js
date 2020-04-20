@@ -10,6 +10,7 @@ function Counter() {
     <div>
         <h1>Try me!</h1>
         <input
+        onChange= {e => setCount(Number(e.target.value))}
         name="try me!"
         type="number"
         />
